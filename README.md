@@ -117,7 +117,14 @@ El controlador opera como una máquina de estados finitos que garantiza transici
    ```bash
    git clone https://github.com/tu-usuario/controlador-maquina-expendedora.git
    cd controlador-maquina-expendedora
+
+   
    ```
 2. Instala las dependencias necesarias desde el **Library Manager** de Arduino IDE o el `platformio.ini` de PlatformIO.
 3. Conecta el **Arduino UNO** al puerto USB de tu equipo.
 4. Compila y descarga el firmware en la placa.
+
+---
+
+ENLACE AL VIDEO: https://drive.google.com/file/d/1WChFGTd7DSJCJvSZWCxxEbXdxrZwhsn9/view?usp=sharing
+
