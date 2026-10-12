@@ -94,16 +94,6 @@ El controlador opera como una máquina de estados finitos que garantiza transici
 
 ---
 
-## 📚 Librerías Empleadas
-
-- [LiquidCrystal](https://www.arduino.cc/en/Reference/LiquidCrystal) — Control del display alfanumérico 16x2.
-- [ArduinoThread](https://www.arduino.cc/reference/en/libraries/arduinothread/) — Programación multitarea cooperativa en Arduino.
-- [DHT sensor library](https://github.com/adafruit/DHT-sensor-library) — Comunicación e interfaz de lectura con DHT11.
-- [TimerOne](https://www.arduino.cc/reference/en/libraries/timerone/) — Configuración y manejo de interrupciones del Timer1 del microcontrolador.
-- `<avr/wdt.h>` — Biblioteca nativa de toolchain AVR para el Watchdog.
-
----
-
 ## 🔌 Asignación de Pines Sugerida
 
 | Periférico | Pin Arduino UNO | Modo de Operación |
@@ -131,9 +121,3 @@ El controlador opera como una máquina de estados finitos que garantiza transici
 2. Instala las dependencias necesarias desde el **Library Manager** de Arduino IDE o el `platformio.ini` de PlatformIO.
 3. Conecta el **Arduino UNO** al puerto USB de tu equipo.
 4. Compila y descarga el firmware en la placa.
-
----
-
-## 📄 Licencia
-
-Este proyecto se distribuye bajo la licencia **MIT**. Consulta el archivo `LICENSE` para más información.
